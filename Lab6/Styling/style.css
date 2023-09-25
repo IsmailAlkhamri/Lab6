@@ -1,0 +1,103 @@
+body{
+    background-color:rgb(172, 200, 201);
+}
+h1{
+    color: red;
+    font-family: 'mooli',sans-serif; /*or 'work sans',sans-serif*/
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    position: fixed;
+    left: 40%;
+    top: 10px;
+}
+.f-family{
+    margin-top: 8em;
+}
+.f-family h4{
+    color:#444;
+    text-indent: 10px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+.f-family p{
+    margin-top: -8px;
+    text-indent: 5px;
+    width: 30%;
+    font-family:monospace;
+}
+div{
+    border: 2px solid white;
+    padding :2em;
+}
+h3{
+    color:#444;
+    text-decoration: underline;
+     position: relative;
+     top: 70px;
+     text-transform: capitalize;
+     font-variant: small-caps;
+}
+.link{
+    margin-top: 3em;
+    border: 0;
+}
+a{
+    font-size: 1.3em;
+}
+a:link{
+  color: blue;
+}
+a:visited{
+    background-color: aqua;
+color: red;
+
+}
+a:hover{
+    color: yellow;   
+}
+a:active{
+    color: black;
+    background-color: green;
+}
+
+.parent{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    left: 5%;
+    top: 70px;
+}
+.child{
+    background-color: blue;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 60%;
+    top: 62%;
+    z-index: 1;
+    
+}
+.child2{
+    background-color: black;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left: 28%;
+    top: 30px;
+    
+}
+.last{
+    position: relative;
+    top: 15em;
+    clear:right;
+    text-align: center;
+}
+.last img{
+    float:unset;
+}
+.last h4{
+    clear: left;
+    
+}
